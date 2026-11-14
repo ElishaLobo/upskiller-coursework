@@ -15,6 +15,7 @@ University Frankfurt) learning the professional data stack from first principles
 - **Python:** functions, lists, dictionaries, string methods, debugging from tracebacks
 - **SQL:** `SELECT`, choosing columns, aliases (`AS`) — SQLite
 - **Tools:** zsh terminal, conda environments (Miniforge), VS Code, Git + GitHub
+- **Git/Github :** init,add,push. /gitignore, SSH keys 
 
 ## How to run the exercises
 
