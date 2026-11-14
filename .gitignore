@@ -1,0 +1,23 @@
+# .gitignore  —  files Git should NEVER track
+# (Rename this file to exactly:  .gitignore   — dot at the start, no .txt)
+
+# macOS junk
+.DS_Store
+
+# Python caches (regenerated automatically every run)
+__pycache__/
+*.pyc
+
+# Virtual environments / editor settings
+.venv/
+.vscode/
+
+# Databases and big data files (rebuild them from scripts instead)
+*.db
+*.sqlite
+*.csv.gz
+data/raw/
+
+# Secrets — NEVER commit passwords, API keys or tokens
+.env
+*.pem
