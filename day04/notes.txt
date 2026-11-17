@@ -1,0 +1,2 @@
+>TREM2_human Triggering receptor on myeloid cells 2 | chr6 | microglia
+>CX3CR1_human Fractalkine receptor | chr3 | microglia
