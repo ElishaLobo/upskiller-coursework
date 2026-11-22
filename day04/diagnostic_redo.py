@@ -12,18 +12,18 @@ import traceback
 
 # B1 — return True if age is 18 or more, else False. One line inside is enough.
 def is_adult(age):
-  if age > 18:
+  if age >= 18:
     return True
   else:
-    return False        
-# ERROR DIARY B1:
+    return False
 
 
 # B2 — how many lengths are GREATER THAN 1000 (1000 itself does NOT count)
 def count_long_genes(lengths):
     count = 0
-    if len(lengths) > 1000:
-        count = count + 1
+    for length in lengths:
+        if length > 1000:
+            count += 1
     return count
 # ERROR DIARY B2:
 
